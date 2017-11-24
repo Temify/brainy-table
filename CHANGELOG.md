@@ -1,5 +1,8 @@
 # Change Log
 
+## [a1.9.1] - 2017-11-24
+- Fire event on cell click
+
 ## [1.9.1] - 2017-10-11
 - Fix table borders not updating on page size change
 
