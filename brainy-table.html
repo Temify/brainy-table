@@ -877,6 +877,7 @@ Custom property                          | Description                          
                 fireEvent('expanding-item', target, this.expandItem);
               }
             }
+            this.fire('cell-clicked', target);
           } else {
             return;
           }
