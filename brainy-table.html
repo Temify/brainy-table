@@ -877,7 +877,7 @@ Custom property                          | Description                          
                 fireEvent('expanding-item', target, this.expandItem);
               }
             }
-            this.fire('cell-clicked', target);
+            this.fire('cell-clicked', {model: target, e: e});
           } else {
             return;
           }
