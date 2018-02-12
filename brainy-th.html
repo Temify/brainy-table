@@ -44,7 +44,7 @@
       }
 
       :host([direction]) .inner {
-        color: rgba(0, 0, 0, 0.87);
+        color: var(--brainy-th-sorting-color, rgba(0, 0, 0, 1));
       }
 
       :host(:not([direction])) ::content iron-icon[sort-trigger] {
