@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.9.4] - 2018-04-19
+- Fix lint issues 
+
+## [1.9.3] - 2018-04-19
+- Add onclick event to table row
+
+## [1.9.2] - 2017-12-29
+- Fix two tables bug in one page
+
 ## [a1.9.1] - 2017-11-24
 - Fire event on cell click
 
