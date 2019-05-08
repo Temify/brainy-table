@@ -145,15 +145,26 @@
         },
 
         _sort: function() {
+          // switch (this.direction) {
+          //   case 'asc':
+          //     this.direction = 'desc';
+          //     break;
+
+          //   case 'desc':
+          //     this.direction = this.defaultSortPath === this.sortBy && !this.noResetSort ? 'asc' : null;
+          //     break;
+
+          //   default:
+          //     this.direction = 'asc';
+          //     break;
+          // }
+
           switch (this.direction) {
             case 'asc':
               this.direction = 'desc';
               break;
 
             case 'desc':
-              this.direction = this.defaultSortPath === this.sortBy && !this.noResetSort ? 'asc' : null;
-              break;
-
             default:
               this.direction = 'asc';
               break;

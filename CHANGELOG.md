@@ -1,5 +1,8 @@
 # Change Log
 
+## [a1.9.4] - 2019-05-09
+- Update sort behaviour
+
 ## [1.9.4] - 2018-04-19
 - Fix lint issues 
 
