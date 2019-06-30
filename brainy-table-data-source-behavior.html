@@ -119,9 +119,13 @@
           }
         });
       }
-      if (opts.sortPath && opts.sortDirection) {
-        items = items.sort(this._sort.bind(this));
+
+      if(this.enableClientSideSort) {
+        if (opts.sortPath && opts.sortDirection) {
+          items = items.sort(this._sort.bind(this));
+        }
       }
+      
       var size = items.length;
       // update pagination after filtering
       var last = this._getLastPage(size);
