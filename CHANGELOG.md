@@ -1,10 +1,13 @@
 # Change Log
 
+## [1.9.5] - 2019-09-27
+- Add ability to make header sticky
+
 ## [a1.9.4] - 2019-05-09
 - Update sort behaviour
 
 ## [1.9.4] - 2018-04-19
-- Fix lint issues 
+- Fix lint issues
 
 ## [1.9.3] - 2018-04-19
 - Add onclick event to table row

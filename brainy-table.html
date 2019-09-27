@@ -194,6 +194,17 @@ Custom property                          | Description                          
       .spinner {
         margin-right: 10px;
       }
+
+      :host([has-sticky-header]) #wrapper {
+        height: 500px;
+      }
+
+      :host([has-sticky-header]) #header {
+        background-color: white;
+        position: sticky;
+        z-index: 2;
+        top: 0;
+      }
     </style>
 
     <div id="wrapper" on-scroll="_onHorizontalScroll">
